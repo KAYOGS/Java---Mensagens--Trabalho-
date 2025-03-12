@@ -1,4 +1,6 @@
 import java.awt.Color;
+import java.net.ServerSocket;
+import java.net.Socket;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -11,7 +13,6 @@ public class componentes extends JFrame {
     private String ipfind;
 
     public componentes() {
-
         // Componentes do frame da tela
         setTitle("Mensagem Java " + "ipfind");
         setSize(800, 600);
